@@ -27,13 +27,13 @@ script:
   #  - echo -e "\<h1\> TRAVIS_BUILD_NUMBER : $TRAVIS_BUILD_NUMBER \</h1\>" >> index.html
     - ls 
   
-after_success:
+#after_success:
 #  -  bash -e ./BANK/travis_and_github/update-gh-pages.sh
-    - export repo1='github_integrations'
-    - export dir_base=$( echo $PWD; )
-    - export dir_product=$dir_base/example
-    - export dir_self=$dir_base/$repo1
-    - git clone --depth=1 https://github.com/brownman/${repo1}.git $repo1
-    - chmod +x $dir_self/travis.sh
-    - bash -c $dir_self/travis.sh #delegate control to repo: github_integrations
+#    - export repo1='github_integrations'
+#    - export dir_base=$( echo $PWD; )
+#    - export dir_product=$dir_base/example
+#    - export dir_self=$dir_base/$repo1
+#    - git clone --depth=1 https://github.com/brownman/${repo1}.git $repo1
+#    - chmod +x $dir_self/travis.sh
+#    - bash -c $dir_self/travis.sh #delegate control to repo: github_integrations
 
