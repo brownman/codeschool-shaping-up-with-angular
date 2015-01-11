@@ -1,7 +1,8 @@
 language: node_js 
 env:
     global:
-        secure: "VskenIWvoOYYblzJzpVpTzgx/DluxocGFjHDFI+RsP1U1IaS5yLlo0Uza6Yh7+g7mDixvL8z9joOyX7oQ4PrnoNjE0h3oGyYrQ4fEiOvzZHDsHTwXYPysySs3wiTBD6rjfgtXHM7ylgPtFBR7MJdttnrKCgeQd+rNl+tZe4pSqY="
+        secure: "X4qCA1dGNgMGjOIjq6eU/1O/YM8e0FxaGK4t2zhpgukzR+ZzWzfe8kcb/zzU5d069GfFwHjHi+gWP6eQ6nQkc2pRdd7zgH7/vsjl+j7OP8cXhI6eEKnyZDeCIaNHS91AQTaZXDa6Q/Leq2qUBqpbCrFHidrE+59xwxkb+diaOMY="
+
         
 cache: 
   - apt
