@@ -37,6 +37,6 @@
     <input ng-model="reviewCtrl.review.author" type="email" class="form-control" placeholder="jimmyDean@example.org" title="Email" required></input>
   </fieldset>
   <fieldset class="form-group">
-    <input ng-disabled="reviewForm.$valid" type="submit" class="btn btn-primary pull-right" value="Submit Review" />
+    <input ng-disabled="reviewForm.$invalid" type="submit" class="btn btn-primary pull-right" value="Submit Review" />
   </fieldset>
 </form>
